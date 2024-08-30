@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スクリーンショットとサイトマップ生成</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <h1>スクリーンショットとサイトマップ生成</h1>
+            <input type="text" id="urlInput" placeholder="URLを入力してください">
+            <button id="screenshotButton">スクリーンショットを撮る</button>
+            <button id="sitemapButton">サイトマップを作成</button>
+            <button id="downloadButton" style="display: none;">ダウンロード</button>
+            <!-- ローディング画面 -->
+            <div class="loader-area">
+                <div class="loader"></div>
+                <p>Now loading...</p>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
